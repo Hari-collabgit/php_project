@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test Suite">
+<test name="Testcases"  verbose="2" parallel="methods" thread-count="2">
+<groups>
+<run>
+<include name="vivo"></include>
+<include name="moto"></include>
+
+</run>
+
+</groups>
+<classes>
+
+<class name="testNG.Suiteexample.java"></class>
+</classes>
+</test>
+</suite>
